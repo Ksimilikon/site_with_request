@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/for_admin.css">
+    <title>Личный кабинет администратора</title>
+</head>
+<body>
+    <header>
+        <img class="head_logo" src="../img/logo.png" alt="logo">
+        <h1 class="head_text">Сделаем лучше вместе!</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="left">
+                <p>Логин</p>
+                <img class="user_img" src="../img/icon-user.png" alt="">
+                <p>Имя</p>
+                <p>Фамилия</p>
+                <p>Отчество</p>
+            </div>
+            <div class="right">
+                <a href="../html/admin_show_r.html"><input class="btn" type="button" value="Просмотр заявок"></a>
+                <input class="quite" type="button" value="Выход из личного кабинета">
+            </div>
+        </div>
+        <div class="add">
+            <h4 class="add_name_text">Добавление категории заявок</h4>
+        </div>
+        <div class="add_field">
+                <form style="display: flex; flex-direction: column; align-items: center;">
+                    <input class="input" type="text" placeholder="Название категории">
+                    <input class="btn_create" type="button" value="Создать категорию">
+                </form>
+        </div>
+        <div class="delete">
+            <div class="delete_name">
+                <h4 class="add_name_text">Удаление категории или заявки</h4>
+            </div>
+            <div class="delete_field">
+                <select>
+                    <option>Выберите категорию</option>
+                    <option>Ремонт дорог</option>
+                    <option>Ремонт игровых площадок</option>
+                    <option>Уборка парков</option>
+                </select>
+                <form>
+                    <input class="btn_delete" type="button" value="Удалить категорию">
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

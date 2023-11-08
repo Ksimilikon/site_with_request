@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/for_reg.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+    <title>Регистрация</title>
+</head>
+<body>
+    <header>
+        <img class="head_logo" src="../img/logo.png" alt="logo">
+        <h1 class="head_text">Сделаем лучше вместе!</h1>
+    </header>
+
+    <main>
+        <div class="up">
+            <h3 class="name">Регистрация</h3>
+            <a class="toAuto" href="../html/autoriz.html">Перейти на страницу входа</a>
+        </div>
+
+        <div class="conteiner">
+            <div class="block">
+                <p class="description">Введите ваше ФИО (доступны только кириллица, дефис и пробелы)</p>
+                <form action="#">
+                    <input id="FIO" class="text_field" type="text">
+                </form>
+            </div >
+            <div class="block">
+                <p class="description">Введите логин (только латинница)</p>
+                <form action="#">
+                    <input id="login" class="text_field" type="text">
+                </form>
+                </div>
+                    <div class="block">
+                        <p class="description">Введите ваш E-mail</p>
+                        <form action="#">
+                            <input id="email" class="text_field" type="text">
+                        </form>
+                    </div>
+                        <div class="block">
+                        <p class="description">Введите пароль</p>
+                        <form action="#">
+                            <input id="password" class="text_field" type="password">
+                        </form>
+                        <p class="description">Повторите пароль</p>
+                        <form action="#">
+                            <input id="repeat_password" class="text_field" type="password">
+                        </form>
+                    </div>
+                </div>
+        </div>
+        <form action="#">
+            <input id="checkbx" type="checkbox">
+            <label class="perm">Согласие на обработку персональных данных</label>
+        </form>
+
+        <div id="warnings">
+            <p id="warning1" class="redAlert"></p>
+            <p id="warning2" class="redAlert"></p>
+            <p id="warning3" class="redAlert"></p>
+            <p id="warning4" class="redAlert"></p>
+            <p id="warning5" class="redAlert"></p>
+            <p id="warning6" class="redAlert"></p>
+        </div>
+        
+        <!-- <form action="#">
+            <input id="reg" class="reg" type="button" value="Регистрация">
+        </form> -->
+        <button id="reg" class="reg">Регистрация</button>
+    </main>
+</body>
+<script src="../js/scp.js"></script>
+</html>

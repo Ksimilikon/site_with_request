@@ -1,0 +1,111 @@
+@font-face{
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 500;
+    src:local("Lora"),
+    url(../fonts/Lora-VariableFont_wght.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 500;
+}
+header {
+    width: 100%;
+    height: 91px;
+    background-color: #5D5D5D;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+/*     justify-content: space-between; */
+}
+.head_logo{
+    height: 46px;
+    width: 46px;
+    margin-left: 33px;
+    }
+.head_text{
+        width: 93%;
+        text-align: center;
+        color: #ffffff;
+        font-size: 32px;
+    }
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_field{
+    width: 365px;
+    height: auto;
+    border-radius: 20px;
+    background-color: #5d5d5d;
+    margin-top: 13%;
+
+    
+    }
+h1{
+    margin-bottom: 25px;
+    margin-top: 23px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+}
+.field_cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text_field{
+    margin-bottom: 20px;
+    width: 304px;
+    height: 36px;
+    border-radius: 7px;
+    border: 0;
+    padding-left: 10px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+.under_fields{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.links{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #5869FF;
+}
+.btn_enter{
+    color: #000000;
+    background-color: #83EB8E;
+    border-radius: 5px;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 39px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+.btn_enter:hover{
+     background-color: #61EC6F;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.redAlert{
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+}

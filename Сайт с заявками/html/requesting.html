@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/for_requesting.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+    
+    <title>Создание заявки</title>
+</head>
+<body>
+    <header>
+        <img class="head_logo" src="../img/logo.png" alt="logo">
+        <h1 class="head_text">Сделаем лучше вместе!</h1>
+    </header>
+    <main>
+        <div class="conteiner">
+            <div class="align name">
+                <p class="name_text">Название заявки</p>
+            </div>
+            <textarea class="align description box_sizing" cols="80" rows="10" title="Описание заявки" placeholder="Введите описание вашей заявки...">
+
+            </textarea>
+            <select class="align fallen_list box_sizing" required>
+                <option>Выберите категорию</option>
+                <option>Ремонт дорог</option>
+                <option>Ремонт игровых площадок</option>
+                <option>Уборка парков</option>
+            </select>
+            <div class="align area_img box_sizing">
+                <p class="loading_img_description">Загрузите фотографии. Принимаются только до 10 МБ (jpg, jpeg, png, bmp). Перетащите фото в поле или нажмите на него и загрузите с устройства
+                </p>
+                <form action="">
+                    <input type="file" multiple accept="image/jpeg,image/png,image/bmp">
+                </form>
+            </div>
+            <form action="">
+                <input id="make" class="btn" type="button" value="Создать заявку">
+            </form>
+        </div>
+    </main>
+</body>
+<script src="../js/makeRequest.js"></script>
+</html>

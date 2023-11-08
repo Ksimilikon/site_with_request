@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/for_autoriz.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+    <title>Авторизация</title>
+</head>
+<body>
+    <header>
+        <img class="head_logo" src="../img/logo.png" alt="logo">
+        <h1 class="head_text">Сделаем лучше вместе!</h1>
+    </header>
+
+    <main>
+        <div class="main_field">
+            <h1>Войти</h1>
+            <div class="field_cont">
+            <form>
+                <input id="logn" class="text_field" type="text" placeholder="Логин">
+            </form>
+            <form>
+                <input id="passw" class="text_field" type="password" placeholder="Пароль">
+            </form>
+            </div>
+            <div class="under_fields">
+            <a class="links" href="../html/reg.html">Регистрация</a>
+            <a class="links" href="#">Забыли пароль?</a>
+            </div>
+            <p id="error" class="redAlert"></p>
+            <form class="button" action="#">
+                <input id="autoriz" class="btn_enter" type="button" value="Войти">
+            </form>
+        </div>
+    </main>
+<script src="../js/scp.js"></script>
+</body>
+</html>
